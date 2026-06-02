@@ -24,6 +24,7 @@ log.md               # 操作日志（追加写入，格式: ## [日期] 类型 
   - `obsidian-cli` — 文件搜索、批量操作、属性管理
   - `json-canvas` — .canvas 图谱文件
   - `obsidian-bases` — .base 数据库视图
+- 本仓库使用 **Jujutsu VCS (jj)** 作为版本控制工具，兼容 Git 后端。`jj` 命令（`jj log`, `jj status`, `jj diff` 等）和标准 `git` 命令均可使用。`jj` 自动快照，无需 `git add`。
 
 ## 命名规范
 
@@ -82,6 +83,7 @@ aliases: []
 | `#entity` | 实体（场景、组件、资源类型） |
 | `#concept` | 概念页面 |
 | `#comparison` | 对比页面 |
+| `#tool` | 工具类页面（如 Git、Jujutsu） |
 | `#todo` | 待后续补充 |
 | `#v3.8` | 3.8 版本相关特性 |
 
@@ -145,8 +147,12 @@ grep -rhoP '\(raw/[^)]+\)' wiki/*.md \
 - 领域：**Cocos Creator 3.8 游戏引擎**
 - 源文档：Cocos Creator 3.8 LTS 中文用户手册（~583 个 .md 文件）
 - 关键主题：场景/节点系统、资源管理、TypeScript 脚本、图形渲染、动画、3D/2D 物理、UI 系统、粒子/音频/缓动、跨平台发布、编辑器扩展
+- `raw/` 中包含两个独立源域：
+  - `raw/` 顶层 — Cocos Creator 手册（40 个子目录）
+  - `raw/zh.javascript.info/` — 《现代 JavaScript 教程》（9 章 174 篇文章）
+- Obsidian 配置：链接格式为 `shortest`（`[[PageName]]` 无路径前缀），附件目录为 `raw/assets`
 
 ## 版本
 
 - 更新日期：2026-06-02
-- Schema 版本：v1.1
+- Schema 版本：v1.2
