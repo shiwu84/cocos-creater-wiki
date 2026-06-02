@@ -121,3 +121,29 @@
 - 0 orphan wikilinks
 - 0 dead raw links
 - Wiki 页面总数：10 → 63
+
+---
+
+## [2026-06-02] restructure | Schema v3.0 全面重写
+
+**操作**：根据用户要求，将 AGENTS.md 从 v2.0 升级到 v3.0，扩展知识领域覆盖。
+
+**核心变更**：
+- **新增领域层**：`#layer/linux`（Linux 系统）、`#layer/rust`（Rust 编程）、`#layer/sw-eng`（软件工程横向层）
+- **重命名**：`#layer/project` → `#layer/game-dev`
+- **学习依赖链扩展**：从单链发展为双链 + 横向贯通层
+  - 链 1：Linux → JS → TS → Cocos Creator → Game Dev
+  - 链 2：Linux → 系统编程概念 → Rust
+  - 横向层：`#layer/sw-eng` 贯通所有领域
+- **新增 raw/ 源文档说明**：Linux Journey（186 课）、Rust TRPL（115 文件）
+- **新增「知识图谱策略」章节**：概念复用、Hub 页面、跨域桥梁、冲突检测、反向链接检查
+- **新增「Index 与 Log 设计」章节**：显式定义 index.md 学习层组织方式
+- **更新 graph.json**：颜色分组匹配新标签系统（`#type/` 前缀）
+
+**受影响文件**：
+- `AGENTS.md` — 全面重写（v2.0 → v3.0）
+- `.obsidian/graph.json` — 更新标签颜色分组
+
+**待办**：
+- 现有 63 个 Wiki 页面的标签从裸格式迁移到 `#layer/` + `#type/` + `#status/` 格式
+- 开始 Ingest Linux Journey 和 Rust TRPL 源文档
