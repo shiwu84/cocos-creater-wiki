@@ -1,0 +1,13 @@
+{
+  "attachmentFolderPath": "raw/assets",
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "obsidian-skills/",
+    ".git/"
+  ],
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "spellcheck": false
+}

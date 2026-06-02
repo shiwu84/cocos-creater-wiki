@@ -1,0 +1,9 @@
+{
+  "Graph View": {
+    "colorGroups": [
+      {"query":"tag:#overview","color":{"a":1,"rgb":6710886}},
+      {"query":"tag:#concept","color":{"a":1,"rgb":11530743}},
+      {"query":"tag:#entity","color":{"a":1,"rgb":4490111}}
+    ]
+  }
+}
