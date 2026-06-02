@@ -1,0 +1,14 @@
+{
+  "name": "documentation",
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "node scripts/lintTwoslashErrors.js",
+    "create-handbook-nav": "node ./scripts/generateTypesForFilesInDocs && node ./scripts/generateDocsNavigationPerLanguage.js",
+    "bootstrap": "pnpm create-handbook-nav && node ./scripts/generateAttribution.js"
+  },
+  "prettier": {
+    "semi": true
+  }
+}

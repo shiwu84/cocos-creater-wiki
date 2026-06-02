@@ -1,0 +1,32 @@
+{
+  "name": "@typescript/ata",
+  "version": "0.9.8",
+  "license": "MIT",
+  "homepage": "https://github.com/microsoft/TypeScript-Website",
+  "repository": {
+    "url": "https://github.com/microsoft/TypeScript-Website.git",
+    "directory": "packages/ata",
+    "type": "git"
+  },
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "src/userFacingTypes.d.ts",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js --format=esm --platform=node --target=es2015 && cpy src/userFacingTypes.d.ts dist/ --rename=index.d.ts && cpy src/ ../sandbox/src/vendor/ata --flat",
+    "test": "jest",
+    "bootstrap": "pnpm build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "cpy-cli": "^7.0.0",
+    "esbuild": "^0.27.3",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^30.2.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.4.4"
+  }
+}
