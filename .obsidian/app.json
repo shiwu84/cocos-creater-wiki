@@ -1,4 +1,8 @@
 {
+  "promptDelete": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "source",
   "attachmentFolderPath": "raw/assets",
   "showUnsupportedFiles": true,
   "newLinkFormat": "shortest",
