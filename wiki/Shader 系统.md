@@ -2,8 +2,10 @@
 title: Shader 系统
 date: 2026-06-02
 tags:
-  - concept
+  - layer/cocos
+  - type/concept
   - shader
+  - status/stable
 aliases:
   - 着色器
   - Cocos Shader

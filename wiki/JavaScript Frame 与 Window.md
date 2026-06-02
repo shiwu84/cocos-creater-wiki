@@ -2,8 +2,10 @@
 title: JavaScript Frame 与 Window
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
+  - type/concept
+  - status/stable
 aliases: []
 ---
 

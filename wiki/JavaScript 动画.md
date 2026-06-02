@@ -2,9 +2,11 @@
 title: JavaScript 动画
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - animation
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -133,6 +135,7 @@ JS 动画可自定义任意时序函数，不受贝塞尔曲线限制：
 
 - [[JavaScript 教程概述]]
 - CSS 布局与样式
+- [[Linux 进程模型]]
 
 ## 原始来源
 

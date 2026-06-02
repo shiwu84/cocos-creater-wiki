@@ -2,8 +2,9 @@
 title: JavaScript Promise 与异步
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -89,6 +90,8 @@ aliases: []
 - [[JavaScript 错误处理]]
 - [[JavaScript Generator 与迭代器]]
 - [[JavaScript 模块]]
+- [[Rust 并发模型]]
+- [[Linux 进程模型]]
 
 ## 原始来源
 - [Promise，async/await](raw/zh.javascript.info/1-js/11-async/index.md)

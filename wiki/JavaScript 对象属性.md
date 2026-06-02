@@ -2,8 +2,9 @@
 title: JavaScript 对象属性
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases:
   - JS 对象属性配置
   - 属性标志与描述符

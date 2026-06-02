@@ -2,9 +2,11 @@
 title: JavaScript 网络请求
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - network
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -95,6 +97,7 @@ socket.onclose = (event) => console.log(event.code, event.reason);
 - [[JavaScript 二进制数据]]
 - [[JavaScript 浏览器存储]]
 - [[JavaScript Frame 与 Window]]
+- [[Linux 网络协议栈]]
 
 ## 原始来源
 

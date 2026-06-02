@@ -2,8 +2,9 @@
 title: JavaScript 二进制数据
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -100,6 +101,7 @@ let blob = new Blob(["<html>…</html>"], {type: 'text/html'});
 - [[JavaScript 教程概述]]
 - [[JavaScript 网络请求]]
 - [[JavaScript 浏览器存储]]
+- [[Linux 文件系统]]
 
 ## 原始来源
 

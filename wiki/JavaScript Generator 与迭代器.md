@@ -2,8 +2,9 @@
 title: JavaScript Generator 与迭代器
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -71,6 +72,7 @@ aliases: []
 - [[JavaScript 教程概述]]
 - [[JavaScript Promise 与异步]]
 - [[JavaScript 模块]]
+- [[Rust 并发模型]]
 
 ## 原始来源
 - [Generator，高级 iteration](raw/zh.javascript.info/1-js/12-generators-iterators/index.md)

@@ -2,9 +2,11 @@
 title: JavaScript 表单与控件
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - form
+  - type/concept
+  - status/stable
 aliases: []
 ---
 

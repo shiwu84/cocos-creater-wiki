@@ -2,8 +2,9 @@
 title: JavaScript 数据类型
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases:
   - JS 数据类型深入
 ---

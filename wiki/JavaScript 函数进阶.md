@@ -2,8 +2,9 @@
 title: JavaScript 函数进阶
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases:
   - JS 函数进阶
 ---
@@ -131,6 +132,8 @@ function cachingDecorator(func) {
 - [[JavaScript 对象基础]]
 - [[JavaScript 代码质量]]
 - [[JavaScript 对象属性]]
+- [[所有权与借用]]
+- [[Linux 进程模型]]
 
 ## 原始来源
 

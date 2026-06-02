@@ -2,9 +2,11 @@
 title: JavaScript 事件
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - event
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -156,6 +158,8 @@ elem.dispatchEvent(event);
 - [[JavaScript 表单与控件]]
 - [[JavaScript 数据加载]]
 - [[JavaScript 教程概述]]
+- [[Linux 进程模型]]
+- [[软件工程概述]]
 
 ## 原始来源
 - [事件简介](raw/zh.javascript.info/2-ui/2-events/index.md)

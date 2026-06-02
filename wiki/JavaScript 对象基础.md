@@ -2,8 +2,9 @@
 title: JavaScript 对象基础
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases:
   - JS 对象基础
   - Object 基础

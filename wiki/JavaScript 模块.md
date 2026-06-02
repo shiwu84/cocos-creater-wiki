@@ -2,8 +2,9 @@
 title: JavaScript 模块
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -95,6 +96,8 @@ aliases: []
 - [[JavaScript 教程概述]]
 - [[JavaScript Promise 与异步]]
 - [[JavaScript 类]]
+- [[Trait 系统]]
+- [[TypeScript 概述]]
 
 ## 原始来源
 - [模块](raw/zh.javascript.info/1-js/13-modules/index.md)

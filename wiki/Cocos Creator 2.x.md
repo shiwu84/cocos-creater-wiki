@@ -2,8 +2,9 @@
 title: Cocos Creator 2.x
 date: 2026-06-02
 tags:
-  - overview
-  - cocos
+  - type/overview
+  - layer/cocos
+  - status/stable
 aliases:
   - Cocos Creator 2
   - Creator 2.x

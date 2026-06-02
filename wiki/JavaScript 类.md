@@ -2,8 +2,9 @@
 title: JavaScript 类
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -90,6 +91,7 @@ aliases: []
 - [[JavaScript 原型与继承]]
 - [[JavaScript 错误处理]]
 - [[JavaScript Promise 与异步]]
+- [[Trait 系统]]
 
 ## 原始来源
 - [类](raw/zh.javascript.info/1-js/09-classes/index.md)

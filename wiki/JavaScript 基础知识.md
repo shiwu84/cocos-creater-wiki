@@ -2,8 +2,9 @@
 title: JavaScript 基础知识
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases:
   - JS 基础
   - JS 语法基础

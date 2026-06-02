@@ -2,8 +2,9 @@
 title: JavaScript 代码质量
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases:
   - JS 代码质量
   - JS 调试与测试

@@ -2,9 +2,11 @@
 title: JavaScript Web Components
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - web-components
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -130,6 +132,7 @@ Shadow DOM 提供额外的样式选择器：
 - [[JavaScript 事件]]
 - CSS 布局与样式
 - [[JavaScript 动画]]
+- [[软件工程概述]]
 
 ## 原始来源
 

@@ -2,8 +2,10 @@
 title: Cocos Creator 概述
 date: 2026-06-02
 tags:
-  - overview
+  - layer/cocos
+  - type/overview
   - v3.8
+  - status/stable
 aliases:
   - Cocos Creator 3.8
   - Cocos Creator
@@ -90,6 +92,9 @@ graph TD
 - [[资源系统]]
 - [[图形渲染]]
 - [[脚本系统]]
+- [[TypeScript 概述]] — 脚本语言依赖
+- [[Linux 概述]] — 运行时平台基础
+- [[软件工程概述]] — 引擎设计中的架构模式
 
 ## 原始来源
 

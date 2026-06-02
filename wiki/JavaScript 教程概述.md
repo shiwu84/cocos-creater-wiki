@@ -2,8 +2,9 @@
 title: JavaScript 教程概述
 date: 2026-06-02
 tags:
-  - overview
-  - javascript
+  - type/overview
+  - layer/js
+  - status/stable
 aliases:
   - 现代 JavaScript 教程
 ---

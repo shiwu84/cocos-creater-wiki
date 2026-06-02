@@ -2,8 +2,9 @@
 title: Jujutsu VCS
 date: 2026-06-02
 tags:
-  - tool
-  - version-control
+  - layer/tool
+  - type/concept
+  - status/stable
 aliases:
   - jj
   - Jujutsu

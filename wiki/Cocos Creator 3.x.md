@@ -2,8 +2,9 @@
 title: Cocos Creator 3.x
 date: 2026-06-02
 tags:
-  - overview
-  - cocos
+  - type/overview
+  - layer/cocos
+  - status/stable
 aliases: []
 ---
 

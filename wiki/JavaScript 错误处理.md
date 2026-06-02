@@ -2,8 +2,9 @@
 title: JavaScript 错误处理
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -70,6 +71,7 @@ aliases: []
 - [[JavaScript 教程概述]]
 - [[JavaScript Promise 与异步]]
 - [[JavaScript 类]]
+- [[所有权与借用]]
 
 ## 原始来源
 - [错误处理](raw/zh.javascript.info/1-js/10-error-handling/index.md)

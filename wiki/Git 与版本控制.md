@@ -2,8 +2,9 @@
 title: Git 与版本控制
 date: 2026-06-02
 tags:
-  - tool
-  - version-control
+  - layer/tool
+  - type/concept
+  - status/stable
 aliases:
   - Git
   - 版本控制

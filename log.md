@@ -1,5 +1,33 @@
 # 操作日志
 
+## [2026-06-02] ingest | 结构化类型与类型兼容性
+
+**操作**：创建 TypeScript 结构类型系统的概念页，综合 Type Compatibility.md、Object Types.md、Basics.md。
+
+**受影响页面**：
+- 新建：[[结构化类型与类型兼容性]]（#layer/ts #type/concept #status/stable）— 名义 vs 结构类型、对象/函数/类/泛型兼容、过剩属性检查、参数双变、跨领域连接（Rust/Go/JS/SWE）
+- 更新：`index.md`（在 TypeScript 分类下新增条目，页面数 67）
+
+**关键发现**：
+- TS 的结构类型是"鸭子测试的静态形式化"——桥接 JS 动态惯例与静态类型安全
+- `private`/`protected` 是 TS 中唯一的"名义行为"——同类来源的 `private` 成员创建了名义式的兼容壁垒
+- 过剩属性检查是结构类型规则的"例外"——仅对新鲜对象字面量生效，防止拼写错误
+
+## [2026-06-02] ingest | Linux 文件系统
+
+**操作**：创建 Linux 文件系统概念页，综合 7 个源文档的深度解释。
+
+**受影响页面**：
+- 新建：[[Linux 文件系统]]（#layer/linux #type/concept #status/stable）— "一切皆文件"哲学、VFS、inode、FSH、硬链接/符号链接、mount/fstab、跨领域连接
+- 更新：`index.md`（新增 Linux/OS 基础分类，页面数 66）
+
+**关键发现**：
+- inode 间接指针模型与 B-tree 存储引擎设计有深层共鸣（跨 SWE 连接）
+- "一切皆文件"统一接口原则在现代编程语言中反复出现（JS Stream、Rust Read/Write trait）
+- mount 挂载机制的设计模式被 Docker volume、Cocos Asset Manager bundle 路径映射继承
+
+---
+
 按时间顺序记录 Wiki 的所有操作（Ingest、Query、Lint 等）。
 
 ---
@@ -147,3 +175,55 @@
 **待办**：
 - 现有 63 个 Wiki 页面的标签从裸格式迁移到 `#layer/` + `#type/` + `#status/` 格式
 - 开始 Ingest Linux Journey 和 Rust TRPL 源文档
+
+---
+
+## [2026-06-02] build | 全面 Wiki 构建
+
+**操作**：执行大规模增量 Wiki 构建，从单领域（Cocos+JS）扩展为完整的八领域知识体系。
+
+### 标签迁移
+- 63 个现有页面从裸标签（`overview`, `concept` 等）迁移到 `#layer/` + `#type/` + `#status/` 前缀格式
+
+### 新领域概述页（5 个）
+- [[Linux 概述]] — Linux 知识体系总览，三层架构、七大知识域、跨链连接
+- [[Rust 概述]] — Rust 语言全景，所有权/借用核心创新、六层概念体系
+- [[TypeScript 概述]] — TS 类型系统入口，四层架构、学习路径
+- [[软件工程概述]] — SWE 横向层枢纽，七大核心概念域跨领域对比
+- [[游戏开发概述]] — 游戏开发实践入口，架构模式/性能优化/跨平台
+
+### Linux 概念页（6 个，Ingest 自 Linux Journey 186 课）
+- [[Linux 进程模型]] — fork/exec、进程状态、信号、调度
+- [[Linux 文件系统]] — VFS、inode、FSH、挂载
+- [[Linux 权限体系]] — rwx、SUID/SGID、粘滞位、进程权限
+- [[Linux 网络协议栈]] — TCP/IP 四层模型、DNS、路由
+- [[Linux 内核架构]] — 特权级分离、系统调用、内核模块
+- [[systemd 服务管理]] — 单元文件、target 依赖图、timer/socket 激活
+
+### Rust 概念页（4 个，Ingest 自 Rust TRPL 21 章）
+- [[所有权与借用]] — Rust 核心创新，move/borrow/lifetimes
+- [[Trait 系统]] — 共享行为定义，泛型约束，trait object
+- [[Rust 并发模型]] — Send/Sync、threads、channels、shared state
+- [[智能指针]] — Box/Rc/RefCell/Arc、内部可变性模式
+
+### TypeScript 概念页（3 个，Ingest 自 TS 官方文档）
+- [[类型窄化]] — 运行时控制流 → 编译期类型推导
+- [[泛型 (TypeScript)]] — 类型参数化，泛型约束，工具类型
+- [[结构化类型与类型兼容性]] — 名义 vs 结构类型，过剩属性检查
+
+### SWE 内容页（2 个，横向贯通综合）
+- [[并发模型对比]] — Linux/JS/Rust/Cocos 四模型全景对比
+- [[错误处理策略对比]] — 异常 vs Result vs 信号，跨语言策略分析
+
+### 跨领域引用增强
+- 13 个 JS 页面补充跨域 wikilink（→ Linux, Rust, TS, SWE）
+- 10 个 Cocos 页面补充跨域 wikilink（→ TS, Linux, SWE）
+
+### index.md 全面重写
+- 从单领域 Cocos 中心架构改为八层学习依赖链组织（Linux→JS→TS→Rust→Cocos→GameDev + SWE + Tools）
+
+### Lint 结果
+- 0 dead raw links
+- Wiki 页面总数：63 → 83
+
+

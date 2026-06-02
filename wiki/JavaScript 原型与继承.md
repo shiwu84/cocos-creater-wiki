@@ -2,8 +2,9 @@
 title: JavaScript 原型与继承
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -69,6 +70,8 @@ aliases: []
 - [[JavaScript 教程概述]]
 - [[JavaScript 类]]
 - [[JavaScript 杂项]]
+- [[Trait 系统]]
+- [[结构化类型与类型兼容性]]
 
 ## 原始来源
 - [原型，继承](raw/zh.javascript.info/1-js/08-prototypes/index.md)

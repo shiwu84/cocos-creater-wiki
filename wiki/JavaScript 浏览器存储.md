@@ -2,9 +2,11 @@
 title: JavaScript 浏览器存储
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - storage
+  - type/concept
+  - status/stable
 aliases: []
 ---
 
@@ -108,6 +110,7 @@ IndexedDB 具有内建的模式版本控制（schema versioning）机制。
 - [[JavaScript 网络请求]]
 - [[JavaScript Frame 与 Window]]
 - [[JavaScript 二进制数据]]
+- [[Linux 文件系统]]
 
 ## 原始来源
 

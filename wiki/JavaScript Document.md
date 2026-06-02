@@ -2,9 +2,11 @@
 title: JavaScript Document
 date: 2026-06-02
 tags:
-  - javascript
+  - layer/js
   - browser
   - dom
+  - type/concept
+  - status/stable
 aliases: []
 ---
 

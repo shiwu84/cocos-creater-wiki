@@ -2,9 +2,10 @@
 title: JavaScript 正则表达式
 date: 2026-06-02
 tags:
-  - javascript
-  - concept
+  - layer/js
+  - type/concept
   - regex
+  - status/stable
 aliases: []
 ---
 

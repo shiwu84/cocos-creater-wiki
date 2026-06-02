@@ -2,8 +2,10 @@
 title: UI 系统
 date: 2026-06-02
 tags:
-  - entity
+  - layer/cocos
+  - type/entity
   - ui
+  - status/stable
 aliases: []
 ---
 
@@ -166,6 +168,7 @@ UIStaticBatch 组件在初始化时将节点树下的渲染数据收集为静态
 - [[资源系统]]
 - [[图形渲染]]
 - [[脚本系统]]
+- [[软件工程概述]] — 组件组合模式、布局算法
 
 ## 原始来源
 

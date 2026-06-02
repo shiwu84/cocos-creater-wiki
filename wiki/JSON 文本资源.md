@@ -2,8 +2,10 @@
 title: JSON 文本资源
 date: 2026-06-02
 tags:
-  - entity
+  - layer/cocos
+  - type/entity
   - asset
+  - status/stable
 aliases: []
 ---
 
