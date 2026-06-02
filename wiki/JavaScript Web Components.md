@@ -3,8 +3,6 @@ title: JavaScript Web Components
 date: 2026-06-02
 tags:
   - layer/js
-  - browser
-  - web-components
   - type/concept
   - status/stable
 aliases: []

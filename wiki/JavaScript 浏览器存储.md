@@ -3,8 +3,6 @@ title: JavaScript 浏览器存储
 date: 2026-06-02
 tags:
   - layer/js
-  - browser
-  - storage
   - type/concept
   - status/stable
 aliases: []

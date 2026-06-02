@@ -4,7 +4,6 @@ date: 2026-06-02
 tags:
   - layer/cocos
   - type/concept
-  - shader
   - status/stable
 aliases:
   - 着色器

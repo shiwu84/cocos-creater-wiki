@@ -1,5 +1,23 @@
 # 操作日志
 
+## [2026-06-02] lint | 全面合规修复
+
+**操作**：Lint 检查后全面修复合规问题。
+
+**修复内容**：
+- 迁移 33 页裸标签到前缀格式（移除 `asset`/`browser`/`event`/`shader`/`ui` 等裸标签）
+- 为 UI 系统/材质系统/缓动系统/音频系统补充 `type/concept` 标签（原误标记为 `type/entity`）
+- 补充 [[Cocos Creator 3.x]] 缺失的 `## 原始来源` section
+- 增强低 wikilink 页面：[[Jujutsu VCS]]（1→4）、[[JavaScript 教程概述]]（4→32）、[[动画剪辑]]（2→4）、[[音频资源]]（2→3）、[[字体资源]]（2→4）、[[JSON 文本资源]]（2→4）、[[JavaScript 动画]]（2→5）
+
+**受影响页面**：40 个 wiki 页面被修改，`index.md` 和 `log.md` 已更新。
+
+**验证结果**：
+- raw/ 死链接：0
+- 缺失 frontmatter 字段：0
+- 裸标签：0
+- 缺失 `## 原始来源`：0
+
 ## [2026-06-02] ingest | 结构化类型与类型兼容性
 
 **操作**：创建 TypeScript 结构类型系统的概念页，综合 Type Compatibility.md、Object Types.md、Basics.md。

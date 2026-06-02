@@ -3,8 +3,6 @@ title: JavaScript 网络请求
 date: 2026-06-02
 tags:
   - layer/js
-  - browser
-  - network
   - type/concept
   - status/stable
 aliases: []

@@ -3,8 +3,7 @@ title: UI 系统
 date: 2026-06-02
 tags:
   - layer/cocos
-  - type/entity
-  - ui
+  - type/concept
   - status/stable
 aliases: []
 ---

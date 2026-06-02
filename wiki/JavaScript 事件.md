@@ -3,8 +3,6 @@ title: JavaScript 事件
 date: 2026-06-02
 tags:
   - layer/js
-  - browser
-  - event
   - type/concept
   - status/stable
 aliases: []
