@@ -72,6 +72,7 @@ aliases: []
 - [[JavaScript Promise 与异步]]
 - [[JavaScript 类]]
 - [[所有权与借用]]
+- [[错误处理策略对比]]
 
 ## 原始来源
 - [错误处理](raw/zh.javascript.info/1-js/10-error-handling/index.md)

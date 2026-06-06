@@ -204,6 +204,15 @@ TypeScript 的类型系统本身就是软件工程的实践工具：
 
 ## 相关页面
 
+### 本领域（layer/ts）
+- [[泛型 (TypeScript)]] — 类型参数化、工具类型
+- [[类型窄化]] — 控制流分析收窄联合类型
+- [[结构化类型与类型兼容性]] — 结构类型 vs 名义类型
+- [[TypeScript 模块系统]] — 模块语法、解析策略、输出目标
+- [[声明文件]] — .d.ts 为 JS 库提供类型信息
+- [[tsconfig 配置]] — 项目编译策略的集中表达
+
+### JS 领域（前提层）
 - [[JavaScript 教程概述]] — TypeScript 的前提：JavaScript 语言基础
 - [[JavaScript 模块]] — JS 模块系统，TS 在此基础上提供类型级别的模块解析
 - [[JavaScript 函数进阶]] — 闭包、装饰器（TS 泛型是其类型层面的对应）
@@ -211,6 +220,8 @@ TypeScript 的类型系统本身就是软件工程的实践工具：
 - [[JavaScript 类]] — JS class 语法，TS 扩展类型注解和访问修饰符
 - [[JavaScript Promise 与异步]] — Promise 类型是 TS 条件类型（Awaited）的典型应用
 - [[JavaScript Generator 与迭代器]] — Generator 类型在 TS 中的声明方式
+
+### Cocos 领域
 - [[脚本系统]] — Cocos Creator 使用 TypeScript 作为脚本语言，装饰器驱动
 - [[Cocos Creator 概述]] — 以 TypeScript 为核心脚本语言的游戏引擎
 

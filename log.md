@@ -1,4 +1,19 @@
+---
+title: 操作日志
+date: 2026-06-10
+tags:
+  - layer/tool
+  - type/meta
+  - status/stable
+aliases:
+  - Wiki 日志
+  - 变更日志
+---
+
 # 操作日志
+
+> [!abstract] 摘要
+> `log.md` 是 Wiki 的时间线：它记录每次 ingest、query、lint、restructure、setup 的目的、影响页面和关键发现。与面向内容导航的 `index.md` 不同，日志用于追踪知识库如何演化，帮助后续 LLM 理解最近发生了什么，并避免重复劳动。
 
 ## [2026-06-02] lint | 全面合规修复
 
@@ -244,4 +259,67 @@
 - 0 dead raw links
 - Wiki 页面总数：63 → 83
 
+---
+
+## [2026-06-06] restructure | 根据 llm-wiki.md 优化项目规则
+
+**操作**：对照 `llm-wiki.md` 的核心理念，轻量迭代当前项目基础设施，不修改只读理念文档和 raw/ 源文档。
+
+**受影响文件**：
+- `AGENTS.md` — 升级到 v3.1，补充运行原则、检索决策、Query 归档判断和 `log.md` 元数据规则
+- `index.md` — 补齐 `layer/tool`、`status/stable`、aliases 和摘要 callout，使其符合 meta 页面规范
+- `log.md` — 补齐 frontmatter、摘要 callout，并追加本次操作记录
+
+**关键发现**：
+- 当前仓库已经实现 raw/wiki/schema 三层架构，主要缺口不在目录结构，而在工作流决策的显式化。
+- `index.md` 和 `log.md` 是 Wiki 基础设施页面，也应被标签系统和 Obsidian 元数据统一管理。
+---
+
+## [2026-06-10] ingest | 大规模迭代：Rust/TS/Linux/SWE 缺口补全 + 跨域桥梁
+
+**操作**：对照 `llm-wiki.md` 的核心理念，大规模补全四层知识缺口并创建跨链桥梁页。
+
+### 新建 Rust 层页面（6 个）
+- [[Rust 生命周期]] — 引用的时间维度、借用检查器、生命周期省略三规则、结构体/方法中的生命周期
+- [[Rust 错误处理]] — Result + panic! 二分法、? 运算符自动类型转换、跨语言对比
+- [[迭代器与闭包]] — Fn/FnMut/FnOnce 三级 trait、惰性迭代器链、零成本抽象
+- [[Cargo 与 crate 生态]] — 包/crate/模块三层、发布配置、工作空间、crates.io
+- [[Rust 宏系统]] — macro_rules! 声明宏、三种过程宏、卫生宏 vs C 预处理器
+- [[unsafe Rust]] — 五种超能力、FFI、安全封装原则
+
+### 新建 TypeScript 层页面（3 个）
+- [[TypeScript 模块系统]] — 模块语法/解析策略/输出目标、node vs classic、与 CommonJS 互操作
+- [[声明文件]] — .d.ts 结构、DefinitelyTyped/@types、为 JS 库编写类型
+- [[tsconfig 配置]] — strict 家族/模块/输出三层选项、include/exclude、项目引用
+
+### 新建 Linux 层页面（2 个）
+- [[Shell 与命令行]] — 命令解释器、管道/重定向、文本处理三剑客、脚本基础
+- [[Linux 包管理]] — apt/yum/dnf/pacman、依赖解析、底层 vs 上层、与语言包管理器的概念共鸣
+
+### 新建 SWE 横向层页面（4 个）
+- [[设计模式]] — 跨语言模式的形态差异（观察者在 JS/Cocos/Rust 的不同实现）、模式不是银弹
+- [[测试策略]] — 测试金字塔、Rust 语言内建测试 vs JS 生态拼装的设计哲学差异
+- [[内存管理对比]] — 虚拟内存(OS) → 所有权(Rust) → GC(JS) 的分层协作与同构问题
+- [[模块化对比]] — Rust crate → TS/ES 模块 → Linux LKM 的严格度光谱对比
+
+### 修改的已有页面
+- [[Rust 概述]] — 添加 6 个新页面到本领域导航
+- [[TypeScript 概述]] — 添加 3 个新页面到本领域导航，重组相关页面层次
+- [[Linux 概述]] — 添加 Shell 与命令行、Linux 包管理到概念页面列表
+- [[软件工程概述]] — 添加 4 个新 SWE 页面到概念导航，移除已创建页面对应的 TODO
+
+### 基础设施
+- `index.md` — 添加全部 15 个新页面，Wiki 页面数 83 → 98，更新日期
+- `log.md` — 追加本次操作记录
+
+### Lint 结果
+- 0 dead raw links（修复 1 处 modules-reference 目录引用 → 指向具体 .md 文件）
+- 所有新页面 ≥ 3 wikilink，满足最低连接度要求
+- Cocos 浅薄实体页在上次 Lint 中已加深（扩充内容 + 添加 wikilink + raw/ 引用），本次未进一步合并
+
+**关键发现**：
+- 本次迭代使 Rust 层从 5 个概念页扩展为 11 个，覆盖了 TRPL 的完整章节体系
+- TS 层从 4 个概念页扩展为 7 个，补全了模块/声明/配置三个核心空白
+- SWE 横向层从 3 页扩展为 7 页（+设计模式/测试/内存对比/模块对比），跨域对比桥梁初步成型
+- 4 个跨链对比页（并发/错误/内存/模块）形成了四条"从 OS 到应用层"的全栈概念连线
 

@@ -678,10 +678,8 @@ fn make_it_quack(duck: &impl Quack) {
 ### 本领域（layer/rust）
 - [[Rust 概述]] — Rust 语言全景，trait 是其多态机制的核心
 - [[所有权与借用]] — 所有权规则是所有 trait 设计的基础（Drop、Copy、Clone 皆与所有权相关）
-- [[生命周期]] — 生命周期标注在 trait 定义与 trait object 中的角色（待创建）
-- [[泛型 (Rust)]] — 泛型与 trait 约束的深度配合（待创建）
-- [[Rust 并发模型]] — Send/Sync 是最核心的两个标记型 trait（待创建）
-- [[智能指针]] — Deref 和 Drop trait 的应用场景（待创建）
+- [[智能指针]] — Deref 和 Drop trait 的应用场景
+- [[Rust 并发模型]] — Send/Sync 是最核心的两个标记型 trait
 
 ### 跨链共鸣
 - [[TypeScript 概述]] — TypeScript 的 interface 与 Rust trait 的对比：结构类型 vs 标称类型

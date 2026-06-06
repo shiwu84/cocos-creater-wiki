@@ -190,13 +190,15 @@ Rust 将软件工程中的最佳实践**内置到了语言和工具链中**：
 
 ### 本领域（layer/rust）
 - [[所有权与借用]] — Rust 最核心的概念
-- [[Rust 枚举与模式匹配]] — 代数数据类型与穷尽性检查
-- [[Rust Trait 与泛型]] — 零成本抽象与接口设计
-- [[Rust 生命周期]] — 引用有效性确保
-- [[Rust 智能指针]] — Box, Rc, RefCell, Arc
-- [[Rust 错误处理]] — Result, panic!, ? 运算符
+- [[Rust 生命周期]] — 引用有效性的编译期保证，所有权体系的时间维度
+- [[Trait 系统]] — 零成本抽象与接口设计
+- [[智能指针]] — Box, Rc, RefCell, Arc
 - [[Rust 并发模型]] — Send/Sync, 线程, 消息传递, async
-- [[Rust 模块与 Crate]] — 包管理与代码组织
+- [[Rust 错误处理]] — Result + panic! 二分法，? 运算符与错误传播
+- [[迭代器与闭包]] — 函数式抽象，零成本迭代器链，三种 Fn trait
+- [[Cargo 与 crate 生态]] — 构建系统、包管理、模块系统、工作空间
+- [[Rust 宏系统]] — 声明宏 + 过程宏，编译期元编程
+- [[unsafe Rust]] — 五种超能力、FFI、安全封装原则
 
 ### JS/TS 领域（跨链共鸣）
 - [[JavaScript Promise 与异步]] — eager Promise vs lazy Future
